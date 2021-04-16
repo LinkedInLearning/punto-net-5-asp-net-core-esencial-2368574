@@ -1,0 +1,49 @@
+﻿@page "/products"
+
+@if (AllProducts.Count == 0)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <p>
+        <input type="text" @bind="FilterTerm" @bind:event="oninput" placeholder="Filtrar..." />
+    </p>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Price
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in AllProducts)
+            {
+                if (!Filter(item))
+                {
+                    continue;
+                }
+
+                <tr>
+                    <td>
+                        @item.Id
+                    </td>
+                    <td>
+                        @item.Name
+                    </td>
+                    <td>
+                        @item.Price.ToString("N2")
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

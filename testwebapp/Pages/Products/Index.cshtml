@@ -1,0 +1,51 @@
+﻿@page
+@model testwebapp.Pages.Products.IndexModel
+@{
+}
+
+<form>
+    <p>
+        Nombre: <input type="text" asp-for="SearchTerm" />
+        <input type="submit" value="Filtrar..." />
+    </p>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Products)
+        {
+        <tr>
+            <td>
+                @item.Id
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Price.ToString("N2")
+            </td>
+            <td>
+                <a asp-page="Edit" asp-route-id="@item.Id">Modificar...</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="Create" class="btn btn-dark">Crear</a>
