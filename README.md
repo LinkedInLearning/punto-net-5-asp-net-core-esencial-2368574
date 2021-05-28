@@ -43,6 +43,6 @@ Revisa mis cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instr
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://es.linkedin.com/learning/dot-net-5-asp-dot-net-core-esencial
+[lil-thumbnail-url]: https://media-exp3.licdn.com/dms/image/C4D0DAQE7cuWiL-1QeQ/learning-public-crop_675_1200/0/1621425772018?e=1622275200&v=beta&t=NReDINguAIgcfUabee88igDB9Uk-koGiCPUI1ySXcp4
 
