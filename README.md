@@ -2,7 +2,7 @@
 Este es el repositorio del curso de LinkedIn Learning [NET 5: ASP.NET Core esencial]. El curso completo está disponible en  [LinkedIn Learning][lil-course-url].
 
 ![NET 5: ASP.NET Core esencial][lil-thumbnail-url] 
-Are you a web developer creating apps? GraphQL gives you a clean way to query complex server data efficiently, and React makes it easy to present that information as a web application in the browser. In this course, instructor Ray Villalobos teaches you how to assemble these parts, using the familiar structure of GitHub as a source for information. Ray first walks you through installing React, including how to use the command-line interface (CLI), as well as how to customize and add the node modules you will need for this project. He explores what you can do with the GitHub API using GraphiQL, then shows you how to retrieve data, generate a query component, and more. Ray goes over each step in building the React app, concluding with how to create the pagination interface.
+Amplía y expande tus conocimientos sobre el desarrollo de sofisticadas soluciones de microservicios y web usando ASP.NET Core 5. Durante este contenido formativo cargado de ejemplos repasarás los conceptos fundamentales de la plataforma de desarrollo ASP.NET Core 5. Al finalizar, serás capaz de identificar sus componentes más importantes, sus diferentes tipos de proyectos y las herramientas necesarias para construir soluciones, como el uso de web API, Tye, páginas Razor o Blazor, entre otros conceptos clave.
 
 ## Instrucciones
 El repositorio tiene branches o ramas para cada video. Para acceder a una específica, puedes ir desde el menú emergente de GitHub, y ver el curso desde esa sección, o bien desde la URL con /tree/BRANCH_NAME.
