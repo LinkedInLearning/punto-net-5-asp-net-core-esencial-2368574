@@ -14,4 +14,4 @@ _Solutions Architect. Microsoft RD y MVP_
 Revisa mis cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/rodrigo-diaz-concha).
 
 [lil-course-url]: https://es.linkedin.com/learning/dot-net-5-asp-dot-net-core-esencial
-[tn-url]: https://media-exp1.licdn.com/dms/image/C4D0DAQE7cuWiL-1QeQ/learning-public-crop_675_1200/0/1621425772018?e=1646960400&v=beta&t=x-WzQwmxpcCTnd6IKqxM_ng0AGhrNjYln-gY7PI5JiU
+[tn-url]: https://cdn.lynda.com/course/2368574/2368574-1621424905938-16x9.jpg
